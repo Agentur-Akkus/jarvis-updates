@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+<title>Jarvis</title>
+<description>Updates für Jarvis (Agentur Akkus)</description>
+<language>de</language>
+<item>
+  <title>Jarvis 1.8 (Testfassung)</title>
+  <pubDate>Mon, 23 Nov 2026 10:32:58 GMT</pubDate>
+  <sparkle:version>1.8.1</sparkle:version>
+  <sparkle:shortVersionString>1.8</sparkle:shortVersionString>
+  <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+  <sparkle:channel>test</sparkle:channel>
+  <description><![CDATA[<h3>Neu</h3><ul><li>Automatische Updates: Jarvis sucht selbst nach neuen Fassungen (beim Start und alle vier Stunden). Gibt es eine, erscheint ein Fenster mit den Änderungen und dem Knopf „Installieren“. Jarvis lädt mit Fortschrittsbalken herunter, tauscht sich aus und startet neu.</li><li>Freigaben bleiben ab jetzt bei Updates erhalten: Jede Fassung trägt dieselbe feste Unterschrift.</li><li>Kein Neustart mitten in einer Aufnahme: Läuft ein Diktat, ein Meeting oder entsteht gerade ein Protokoll, wartet das Update, bis Jarvis fertig ist.</li><li>Einstellungen → „Updates“: zeigt die Version und sucht auf Knopfdruck. „Testfassungen erhalten“ bringt neue Fassungen vor allen anderen (nur für Tester). Auch im Menü: „Nach Updates suchen …“.</li></ul><h3>Das müsst ihr tun</h3><ul><li>Ein letztes Mal von Hand installieren: <code>Jarvis-Erstinstallation.zip</code> entpacken, <code>Installieren.command</code> starten, die drei Freigaben neu setzen. Danach kommen alle Updates von selbst.</li></ul><h3>Bleibt erhalten</h3><ul><li>Sprachmodell, Einstellungen, Diktatverlauf, Protokolle. Enthält alles aus 1.7.</li></ul><h3>Nicht getestet</h3><ul><li>Das erste echte Update (1.8 auf die nächste Fassung) wird vor der Freigabe für alle auf einem Test-Mac geprüft.</li></ul>]]></description>
+  <enclosure url="https://raw.githubusercontent.com/Agentur-Akkus/jarvis-updates/main/versionen/Jarvis-1.8.1.zip" type="application/octet-stream" sparkle:edSignature="eG5T+a14W1aNjCNnK1pjxvBsQy+S4X31Vrmsuu7cePqObeQpPMFOM8hDOS9mDgzFwNs3N0YZOqp/0VXrCJ3FCw==" length="4091216"/>
+</item>
+</channel>
+</rss>
