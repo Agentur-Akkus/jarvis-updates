@@ -6,6 +6,16 @@
 <language>de</language>
 <item>
   <title>Jarvis 1.8 (Testfassung)</title>
+  <pubDate>Mon, 23 Nov 2026 11:24:44 GMT</pubDate>
+  <sparkle:version>1.8.2.2</sparkle:version>
+  <sparkle:shortVersionString>1.8</sparkle:shortVersionString>
+  <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+  <sparkle:channel>test</sparkle:channel>
+  <description><![CDATA[<h3>Neu</h3><ul><li>Automatische Updates: Jarvis sucht selbst nach neuen Fassungen (um 0, 4, 8, 12, 16 und 20 Uhr, verpasste Zeiten nach dem Ruhezustand werden nachgeholt). Gibt es eine, erscheint von selbst ein Fenster, auch wenn Jarvis tagelang im Hintergrund läuft, aber nie mitten in einer Aufnahme. Es zeigt die Änderungen und den Knopf „Installieren“. Jarvis lädt mit Fortschrittsbalken herunter, tauscht sich aus und startet neu.</li><li>Freigaben bleiben ab jetzt bei Updates erhalten: Jede Fassung trägt dieselbe feste Unterschrift.</li><li>Kein Neustart mitten in einer Aufnahme: Läuft ein Diktat, ein Meeting oder entsteht gerade ein Protokoll, wartet das Update, bis Jarvis fertig ist.</li><li>Einstellungen → „Updates“: zeigt die Version und sucht auf Knopfdruck. „Testfassungen erhalten“ bringt neue Fassungen vor allen anderen (nur für Tester). Auch im Menü: „Nach Updates suchen …“.</li></ul><h3>Das müsst ihr tun</h3><ul><li>Ein letztes Mal von Hand installieren, am einfachsten mit einer Zeile im Terminal (steht in der Anleitung), dann die drei Freigaben neu setzen. Danach kommen alle Updates von selbst.</li><li>Doppelte Jarvis-Kopien räumt die Installation selbst in den Papierkorb.</li><li>Wer schon eine Jarvis ab 1.8 hat: nichts tun, das Update kommt von selbst.</li></ul><h3>Bleibt erhalten</h3><ul><li>Sprachmodell, Einstellungen, Diktatverlauf, Protokolle. Enthält alles aus 1.7.</li></ul><h3>Nicht getestet</h3><ul><li>Das erste echte Update (1.8 auf die nächste Fassung) wird vor der Freigabe für alle auf einem Test-Mac geprüft.</li></ul>]]></description>
+  <enclosure url="https://raw.githubusercontent.com/Agentur-Akkus/jarvis-updates/main/versionen/Jarvis-1.8.2.2.zip" type="application/octet-stream" sparkle:edSignature="wvbknA8yQo0hL4duh8mTdINKa2cyx7mhlr1UU6ArzEnbWNFMjch5TGL90YmRnxJhb18jaaY7dEpPm7ElpVLjAA==" length="4095109"/>
+</item>
+<item>
+  <title>Jarvis 1.8 (Testfassung)</title>
   <pubDate>Mon, 23 Nov 2026 11:11:57 GMT</pubDate>
   <sparkle:version>1.8.2.1</sparkle:version>
   <sparkle:shortVersionString>1.8</sparkle:shortVersionString>
