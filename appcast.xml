@@ -5,6 +5,15 @@
 <description>Updates für Jarvis (Agentur Akkus)</description>
 <language>de</language>
 <item>
+  <title>Jarvis 1.10</title>
+  <pubDate>Mon, 23 Nov 2026 13:14:49 GMT</pubDate>
+  <sparkle:version>1.10.2</sparkle:version>
+  <sparkle:shortVersionString>1.10</sparkle:shortVersionString>
+  <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+  <description><![CDATA[<h3>Neu</h3><ul><li>Sprechbalken wie bei einer Sprachnachricht (kompakte Anzeige): Viele schmale Striche gleiten als Wellenform von rechts nach links, jeder Strich zeigt die Lautstärke eines kurzen Moments, Stille erscheint als kleine Punkte. Links blendet die Welle weich aus. Die Pille ist dafür etwas breiter.</li></ul><h3>Das müsst ihr tun</h3><ul><li>Nichts. Das Update kommt von selbst.</li></ul><h3>Bleibt erhalten</h3><ul><li>Sprachmodell, Einstellungen, Diktatverlauf, Protokolle, Freigaben. Enthält alles aus 1.9.</li></ul>]]></description>
+  <enclosure url="https://raw.githubusercontent.com/Agentur-Akkus/jarvis-updates/main/versionen/Jarvis-1.10.2.zip" type="application/octet-stream" sparkle:edSignature="cpML3Ggc5xzOH4FVXnqihD4Rkkw/cPDethtTrRcZV5bDxTUReaIYY8WQtKDiDTSF8drjfBal7p4w2c4Ra5HMBw==" length="5049830"/>
+</item>
+<item>
   <title>Jarvis 1.10 (Testfassung)</title>
   <pubDate>Mon, 23 Nov 2026 13:13:07 GMT</pubDate>
   <sparkle:version>1.10.1</sparkle:version>
