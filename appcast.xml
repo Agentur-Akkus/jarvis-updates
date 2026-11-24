@@ -6,6 +6,23 @@
 <language>de</language>
 <item>
   <title>Jarvis 1.15 (Testfassung)</title>
+  <pubDate>Tue, 24 Nov 2026 13:22:54 GMT</pubDate>
+  <sparkle:version>1.15.2</sparkle:version>
+  <sparkle:shortVersionString>1.15</sparkle:shortVersionString>
+  <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+  <sparkle:channel>test</sparkle:channel>
+  <description><![CDATA[<h3>Neu</h3><ul><li><b>Sauberer Schnitt beim Sprecherwechsel.</b> Reden zwei direkt nacheinander, landen sie im Protokoll nicht mehr in einem Satz. Jarvis kennt für jedes Wort die Zeit und schneidet genau dort, wo die Stimme wechselt.</li><li><b>Nachkorrektur am Ende.</b> Nach dem Meeting hört die Personen-Erkennung das ganze Gespräch noch einmal am Stück an. Das ist genauer als live. Namen und Nummern aus dem Live-Fenster bleiben dabei erhalten, das Protokoll ist der gemeinsame Endstand.</li><li><b>Kleinere Updates.</b> Ab jetzt lädt Jarvis bei einem Update nur noch die geänderten Teile (Delta-Update), statt jedes Mal die ganze App. Von 1.14 auf 1.15 sind das rund 0,4 MB statt 9,7 MB. Passt die installierte Fassung nicht genau, kommt wie bisher die ganze App.</li><li>Ab 1.15.2: <b>Namen statt „Ich“ und „Andere“.</b> Protokolle und Zusammenfassungen werden geteilt, darum steht dort immer ein Name: für dein Mikrofon dein Name aus dem Admin-Konto, für die anderen der Name, den du im Live-Fenster vergibst, sonst „Person 1“, „Person 2“ … Ist ein Satz keiner erkannten Person sicher zuzuordnen, steht dort „Weitere Person“. Auch das Live-Fenster zeigt so die Namen.</li></ul><h3>Das müsst ihr tun</h3><ul><li>Nichts. Das Update kommt von selbst.</li></ul><h3>Bleibt erhalten</h3><ul><li>Sprachmodell, Personen-Erkennung, Einstellungen, Diktatverlauf, Protokolle. Enthält alles aus 1.14.</li></ul><h3>Nicht getestet</h3><ul><li>Sehr lange Meetings: Die Nachkorrektur braucht am Ende zusätzlich etwa 1 bis 2 Minuten je Stunde Gespräch.</li></ul>]]></description>
+  <enclosure url="https://raw.githubusercontent.com/Agentur-Akkus/jarvis-updates/main/versionen/Jarvis-1.15.2.zip" type="application/octet-stream" sparkle:edSignature="HAf0svKFzIGZ3eXqvaq+MEWH7o23fUSQWMGtNy8XYMOx8bWnmIvwMbUlhlPmDB9ArDb43X7TLdl2yiaI72RXCw==" length="9680084"/>
+  <sparkle:deltas>
+    <enclosure url="https://raw.githubusercontent.com/Agentur-Akkus/jarvis-updates/main/versionen/Jarvis-1.15.2-von-1.15.1.delta" sparkle:deltaFrom="1.15.1" type="application/octet-stream" sparkle:edSignature="7IPUzWBoW8xPMl1Z6Ye5yVRQknFqFwkkdrP2nXGuYNINHou7uJyn38P1YTH90GGtBW9vp5hei/pFWHaKqL8tCg==" length="429590"/>
+    <enclosure url="https://raw.githubusercontent.com/Agentur-Akkus/jarvis-updates/main/versionen/Jarvis-1.15.2-von-1.14.2.delta" sparkle:deltaFrom="1.14.2" type="application/octet-stream" sparkle:edSignature="1/nwq7qsbXshyozyjlYuzCJCNKIkcF46F/oV3KFbGcNYc7W0lGlfhxiMnbyj4iv/2PERH1i5QtyfSo4wUDwXCQ==" length="489330"/>
+    <enclosure url="https://raw.githubusercontent.com/Agentur-Akkus/jarvis-updates/main/versionen/Jarvis-1.15.2-von-1.14.1.delta" sparkle:deltaFrom="1.14.1" type="application/octet-stream" sparkle:edSignature="8HDQsLv0sEk8Eg67p2z5k/9Q8LrLC5UwkE0HwOFkRwNL00stk7JW85W8vmJN6wegn0w+vd2ZyLQ4k62Tmi7mBg==" length="498906"/>
+    <enclosure url="https://raw.githubusercontent.com/Agentur-Akkus/jarvis-updates/main/versionen/Jarvis-1.15.2-von-1.13.1.delta" sparkle:deltaFrom="1.13.1" type="application/octet-stream" sparkle:edSignature="Ie7SSlDMgBeQJzi8BLG9rrn3NzEpWIMQoyxAJaEikf47Ii5Dl8zByNczLdzvfaKoFNUvWXtyD+QyQu9mQ/b+DA==" length="2261278"/>
+    <enclosure url="https://raw.githubusercontent.com/Agentur-Akkus/jarvis-updates/main/versionen/Jarvis-1.15.2-von-1.12.1.delta" sparkle:deltaFrom="1.12.1" type="application/octet-stream" sparkle:edSignature="zLAEKVsSJbjhQ+xbsgWqz7ULnKsNX4EtQkLSyyIKjKiIE3XT7OxWLlS/TUSAYMEha5wg+dCGQpnObx3jmwMAAw==" length="2276198"/>
+  </sparkle:deltas>
+</item>
+<item>
+  <title>Jarvis 1.15 (Testfassung)</title>
   <pubDate>Tue, 24 Nov 2026 13:11:30 GMT</pubDate>
   <sparkle:version>1.15.1</sparkle:version>
   <sparkle:shortVersionString>1.15</sparkle:shortVersionString>
@@ -149,15 +166,6 @@
   <sparkle:channel>test</sparkle:channel>
   <description><![CDATA[<h3>Neu</h3><ul><li>Sprechbalken wie bei einer Sprachnachricht (kompakte Anzeige): Viele schmale Striche gleiten als Wellenform von rechts nach links, jeder Strich zeigt die Lautstärke eines kurzen Moments, Stille erscheint als kleine Punkte. Links blendet die Welle weich aus. Die Pille ist dafür etwas breiter.</li></ul><h3>Das müsst ihr tun</h3><ul><li>Nichts. Das Update kommt von selbst.</li></ul><h3>Bleibt erhalten</h3><ul><li>Sprachmodell, Einstellungen, Diktatverlauf, Protokolle, Freigaben. Enthält alles aus 1.9.</li></ul>]]></description>
   <enclosure url="https://raw.githubusercontent.com/Agentur-Akkus/jarvis-updates/main/versionen/Jarvis-1.10.1.zip" type="application/octet-stream" sparkle:edSignature="UGRzgvWHnQdIaVSYbhmHcfLORpr43ni5VkpduBI3X4lMUzMePi8rIjybuGkt2zRZi3ZDW9mA6Z6E/TSIPSdGDA==" length="5137793"/>
-</item>
-<item>
-  <title>Jarvis 1.9</title>
-  <pubDate>Mon, 23 Nov 2026 12:51:28 GMT</pubDate>
-  <sparkle:version>1.9.4</sparkle:version>
-  <sparkle:shortVersionString>1.9</sparkle:shortVersionString>
-  <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-  <description><![CDATA[<h3>Neu</h3><ul><li>Live-Diktat: Jarvis schreibt schon beim Sprechen mit. Kurze Diktate sind nach dem Loslassen in etwa einer halben Sekunde da, lange fast ohne Wartezeit. Das Sprachmodell bleibt dafür geladen und wird nach 15 Minuten ohne Diktat wieder freigegeben.</li><li>Vorschau am Cursor: Eine kleine Glas-Blase unter der Schreibstelle erscheint sofort und schreibt hellgrau Buchstabe für Buchstabe mit, was Jarvis verstanden hat. Korrekturen werden sanft zurückgenommen, ältere Zeilen gleiten nach oben weg. Eingefügt wird erst beim Loslassen. Abschaltbar unter Einstellungen → Diktieren → „Live-Vorschau“.</li><li>Ruhigerer, flüssiger Sprechbalken (kompakte Anzeige): Beim Zuhören gleiten die Balken stufenlos wie eine Tonspur im Takt des Bildschirms und schlagen nur bei Betonungen höher aus, beim Umwandeln hüpfen drei Punkte langsam und flach.</li><li>fn als Taste: Öffnet macOS beim Tippen noch das Emoji-Fenster, zeigt Jarvis einen Hinweis mit Knopf direkt zur passenden Einstellung („🌐-Taste drücken: Keine Aktion“).</li><li>Einstellungen aufgeräumt: Diktieren, Meetings, Verlauf und Updates als eigene Gruppen, neben jeder Option ein ⓘ mit Erklärung.</li></ul><h3>Das müsst ihr tun</h3><ul><li>Wer schon eine 1.8-Testfassung hat: nichts, das Update kommt von selbst.</li><li>Wer noch 1.7 oder älter hat: ein letztes Mal von Hand installieren (eine Zeile im Terminal, steht in der Anleitung), dann die Freigaben neu setzen. Danach kommen alle Updates von selbst.</li><li>Wer fn als Taste nutzt: einmal dem Hinweis folgen.</li></ul><h3>Bleibt erhalten</h3><ul><li>Sprachmodell, Einstellungen, Diktatverlauf, Protokolle, Freigaben. Enthält alles aus 1.8.</li></ul><h3>Nicht getestet</h3><ul><li>Vorschau am Cursor in allen Apps: Wo eine App die Cursor-Position nicht verrät, erscheint die Blase unten in der Mitte.</li></ul>]]></description>
-  <enclosure url="https://raw.githubusercontent.com/Agentur-Akkus/jarvis-updates/main/versionen/Jarvis-1.9.4.zip" type="application/octet-stream" sparkle:edSignature="5AeqVTv76C9D1HuOmfbSC2A10dvZPvLOcDwCtkUcRnCIjSYzr1fA7lTiM2t6NqiMkvmEA7l3cNGPM1Og9zLDBw==" length="5049682"/>
 </item>
 </channel>
 </rss>
