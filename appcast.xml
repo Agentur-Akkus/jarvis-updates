@@ -6,6 +6,23 @@
 <language>de</language>
 <item>
   <title>Jarvis 1.18 (Testfassung)</title>
+  <pubDate>Tue, 24 Nov 2026 19:11:34 GMT</pubDate>
+  <sparkle:version>1.18.9</sparkle:version>
+  <sparkle:shortVersionString>1.18</sparkle:shortVersionString>
+  <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+  <sparkle:channel>test</sparkle:channel>
+  <description><![CDATA[<h3>Neu</h3><ul><li><b>Oben links: Logo und „Agentur Akkus“.</b> Das Logo-Zeichen steht still, über den Schriftzug läuft beim Öffnen einmal ein sanfter Lichtstreifen, bei Maus darüber noch einmal. Die Glocke sitzt rechts auf derselben Höhe.</li><li><b>Gewählter Bereich als Milchglas</b> statt dunkelgrün. Die Markierung gleitet mit einer kleinen Feder zum neuen Bereich.</li><li><b>Weiche Farben in der Seitenleiste</b> (Salbei und Sand), damit das Glas wirkt.</li><li><b>Dashboard: „Heute im Kalender“.</b> Statt Wochen-Ring und „Zuletzt erledigt“ steht oben eine grüne Karte mit dem Termin, der gerade läuft oder als Nächstes kommt, und ein Ring zählt bis zum Beginn herunter. Darunter dein Tag als Liste mit Uhrzeit und Teilnehmern, eine rote Linie zeigt, wo du gerade bist (nur zwischen deinem ersten und letzten Termin). Ein Klick auf einen Termin öffnet den Kalender. Deine Aufgaben bleiben links. Gleich wie im Admin der Website.</li><li><b>Dashboard in Milchglas.</b> Weiche Farbflecken in Salbei, Sand, Pfirsich und Himmelblau liegen hinter dem ganzen Dashboard. Deine Aufgaben und „Heute im Kalender“ stehen auf hellen Glas-Karten, oben fasst eine Glas-Leiste den Tag zusammen: überfällig, heute fällig, Termine und der nächste Termin.</li><li><b>„Nach Updates suchen“ zeigt die richtigen Versionen.</b> Gibt es kein Update, nennt Jarvis jetzt deine installierte Fassung (mit Build) und die neueste verfügbare. Hast du eine Testfassung, die neuer ist als die Fassung für alle, steht das dabei, statt „1.17 ist die neueste Version“.</li><li><b>„Installieren und neu starten“ sagt Bescheid.</b> Läuft gerade ein Meeting, ein Protokoll oder ein Diktat, wartet das Update absichtlich. Jarvis zeigt das jetzt an und startet von selbst neu, sobald es fertig ist. Vorher passierte nach dem Klick scheinbar nichts.</li><li>Mit „Bewegung reduzieren“ in macOS steht alles still. Die Bewegungen laufen auf der Grafikkarte und kosten danach keine Rechenzeit.</li></ul>]]></description>
+  <enclosure url="https://raw.githubusercontent.com/Agentur-Akkus/jarvis-updates/main/versionen/Jarvis-1.18.9.zip" type="application/octet-stream" sparkle:edSignature="y48/P0GMWBZlO53+0wxZLU1aMyPY576dbCfWy48YF+FPvcJOFe3hpCazXG+f7QxW1h18UGzbduWijVlTAJFhBg==" length="9835246"/>
+  <sparkle:deltas>
+    <enclosure url="https://raw.githubusercontent.com/Agentur-Akkus/jarvis-updates/main/versionen/Jarvis-1.18.9-von-1.18.8.delta" sparkle:deltaFrom="1.18.8" type="application/octet-stream" sparkle:edSignature="iLmPiGKEuaEOqGnDtMRXlMJFGgRf4EEGYWM/reoHPhT7ADPnqEgnR1KurZEflz7VsBZzqXYlxpoWyDUUQCwzCg==" length="339594"/>
+    <enclosure url="https://raw.githubusercontent.com/Agentur-Akkus/jarvis-updates/main/versionen/Jarvis-1.18.9-von-1.18.7.delta" sparkle:deltaFrom="1.18.7" type="application/octet-stream" sparkle:edSignature="CrrkECi5DPuuSkkfQvjHklwhNE2CynNcqsSMkGZ6TPWb7Dox2f0HqOjXqmzoXgUPcfU276Bjs+6vhDoCVPFDBw==" length="354090"/>
+    <enclosure url="https://raw.githubusercontent.com/Agentur-Akkus/jarvis-updates/main/versionen/Jarvis-1.18.9-von-1.18.6.delta" sparkle:deltaFrom="1.18.6" type="application/octet-stream" sparkle:edSignature="4RzJj0bi2YAVO7Zqw0nhBWYa0tcZWCq7EDglOHvwyGE4IpWL1F8KknrRSInzubQkAXvEYgmImAqdWiddrRb1Cw==" length="401826"/>
+    <enclosure url="https://raw.githubusercontent.com/Agentur-Akkus/jarvis-updates/main/versionen/Jarvis-1.18.9-von-1.18.5.delta" sparkle:deltaFrom="1.18.5" type="application/octet-stream" sparkle:edSignature="BvQzM2v6Oo1QhN2OVCZf3DuezaymJa8geNHb5L/GkUyWydkoX/gNXkYBN2blSRnF0YgnTWIvGUlYEjpYnh8jAg==" length="452978"/>
+    <enclosure url="https://raw.githubusercontent.com/Agentur-Akkus/jarvis-updates/main/versionen/Jarvis-1.18.9-von-1.18.4.delta" sparkle:deltaFrom="1.18.4" type="application/octet-stream" sparkle:edSignature="ofVfJY+2D21OC+5qmJuNSx31Ks8bvC4GhwsUPWX74IWA4K9cNYy2eerJGH+r7ibE1t1ncZeMVEnLLoVovzpUAw==" length="453178"/>
+  </sparkle:deltas>
+</item>
+<item>
+  <title>Jarvis 1.18 (Testfassung)</title>
   <pubDate>Tue, 24 Nov 2026 19:06:27 GMT</pubDate>
   <sparkle:version>1.18.8</sparkle:version>
   <sparkle:shortVersionString>1.18</sparkle:shortVersionString>
@@ -239,23 +256,6 @@
     <enclosure url="https://raw.githubusercontent.com/Agentur-Akkus/jarvis-updates/main/versionen/Jarvis-1.16.1-von-1.14.2.delta" sparkle:deltaFrom="1.14.2" type="application/octet-stream" sparkle:edSignature="pFmf0uRglzdBPEw7JYNTibf0OHg1bE1y9u8d40XAckAIrebLxwAJvH/oTrbHDqQqJw1c4ElQu1UCOQkyGI9kCg==" length="725022"/>
     <enclosure url="https://raw.githubusercontent.com/Agentur-Akkus/jarvis-updates/main/versionen/Jarvis-1.16.1-von-1.14.1.delta" sparkle:deltaFrom="1.14.1" type="application/octet-stream" sparkle:edSignature="aZutvivUTBaPiXnpCw/MlQy3FHvJzkeOHP1J5xHiJHB0wdr9CIilxQTzgrgHj+7JJj3rnEwu3pa1kkNnkzR9Bg==" length="723322"/>
     <enclosure url="https://raw.githubusercontent.com/Agentur-Akkus/jarvis-updates/main/versionen/Jarvis-1.16.1-von-1.13.1.delta" sparkle:deltaFrom="1.13.1" type="application/octet-stream" sparkle:edSignature="OsPi+bwr9ysHXxhTvGfPYmM9HYpEl/5HLkvVy8V8uN8RwVcFS/lBlPWJSJXO9seSjgA76M/FCX/8NpsToe2hDA==" length="2338162"/>
-  </sparkle:deltas>
-</item>
-<item>
-  <title>Jarvis 1.15 (Testfassung)</title>
-  <pubDate>Tue, 24 Nov 2026 13:22:54 GMT</pubDate>
-  <sparkle:version>1.15.2</sparkle:version>
-  <sparkle:shortVersionString>1.15</sparkle:shortVersionString>
-  <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-  <sparkle:channel>test</sparkle:channel>
-  <description><![CDATA[<h3>Neu</h3><ul><li><b>Sauberer Schnitt beim Sprecherwechsel.</b> Reden zwei direkt nacheinander, landen sie im Protokoll nicht mehr in einem Satz. Jarvis kennt für jedes Wort die Zeit und schneidet genau dort, wo die Stimme wechselt.</li><li><b>Nachkorrektur am Ende.</b> Nach dem Meeting hört die Personen-Erkennung das ganze Gespräch noch einmal am Stück an. Das ist genauer als live. Namen und Nummern aus dem Live-Fenster bleiben dabei erhalten, das Protokoll ist der gemeinsame Endstand.</li><li><b>Kleinere Updates.</b> Ab jetzt lädt Jarvis bei einem Update nur noch die geänderten Teile (Delta-Update), statt jedes Mal die ganze App. Von 1.14 auf 1.15 sind das rund 0,4 MB statt 9,7 MB. Passt die installierte Fassung nicht genau, kommt wie bisher die ganze App.</li><li>Ab 1.15.2: <b>Namen statt „Ich“ und „Andere“.</b> Protokolle und Zusammenfassungen werden geteilt, darum steht dort immer ein Name: für dein Mikrofon dein Name aus dem Admin-Konto, für die anderen der Name, den du im Live-Fenster vergibst, sonst „Person 1“, „Person 2“ … Ist ein Satz keiner erkannten Person sicher zuzuordnen, steht dort „Weitere Person“. Auch das Live-Fenster zeigt so die Namen.</li></ul><h3>Das müsst ihr tun</h3><ul><li>Nichts. Das Update kommt von selbst.</li></ul><h3>Bleibt erhalten</h3><ul><li>Sprachmodell, Personen-Erkennung, Einstellungen, Diktatverlauf, Protokolle. Enthält alles aus 1.14.</li></ul><h3>Nicht getestet</h3><ul><li>Sehr lange Meetings: Die Nachkorrektur braucht am Ende zusätzlich etwa 1 bis 2 Minuten je Stunde Gespräch.</li></ul>]]></description>
-  <enclosure url="https://raw.githubusercontent.com/Agentur-Akkus/jarvis-updates/main/versionen/Jarvis-1.15.2.zip" type="application/octet-stream" sparkle:edSignature="HAf0svKFzIGZ3eXqvaq+MEWH7o23fUSQWMGtNy8XYMOx8bWnmIvwMbUlhlPmDB9ArDb43X7TLdl2yiaI72RXCw==" length="9680084"/>
-  <sparkle:deltas>
-    <enclosure url="https://raw.githubusercontent.com/Agentur-Akkus/jarvis-updates/main/versionen/Jarvis-1.15.2-von-1.15.1.delta" sparkle:deltaFrom="1.15.1" type="application/octet-stream" sparkle:edSignature="7IPUzWBoW8xPMl1Z6Ye5yVRQknFqFwkkdrP2nXGuYNINHou7uJyn38P1YTH90GGtBW9vp5hei/pFWHaKqL8tCg==" length="429590"/>
-    <enclosure url="https://raw.githubusercontent.com/Agentur-Akkus/jarvis-updates/main/versionen/Jarvis-1.15.2-von-1.14.2.delta" sparkle:deltaFrom="1.14.2" type="application/octet-stream" sparkle:edSignature="1/nwq7qsbXshyozyjlYuzCJCNKIkcF46F/oV3KFbGcNYc7W0lGlfhxiMnbyj4iv/2PERH1i5QtyfSo4wUDwXCQ==" length="489330"/>
-    <enclosure url="https://raw.githubusercontent.com/Agentur-Akkus/jarvis-updates/main/versionen/Jarvis-1.15.2-von-1.14.1.delta" sparkle:deltaFrom="1.14.1" type="application/octet-stream" sparkle:edSignature="8HDQsLv0sEk8Eg67p2z5k/9Q8LrLC5UwkE0HwOFkRwNL00stk7JW85W8vmJN6wegn0w+vd2ZyLQ4k62Tmi7mBg==" length="498906"/>
-    <enclosure url="https://raw.githubusercontent.com/Agentur-Akkus/jarvis-updates/main/versionen/Jarvis-1.15.2-von-1.13.1.delta" sparkle:deltaFrom="1.13.1" type="application/octet-stream" sparkle:edSignature="Ie7SSlDMgBeQJzi8BLG9rrn3NzEpWIMQoyxAJaEikf47Ii5Dl8zByNczLdzvfaKoFNUvWXtyD+QyQu9mQ/b+DA==" length="2261278"/>
-    <enclosure url="https://raw.githubusercontent.com/Agentur-Akkus/jarvis-updates/main/versionen/Jarvis-1.15.2-von-1.12.1.delta" sparkle:deltaFrom="1.12.1" type="application/octet-stream" sparkle:edSignature="zLAEKVsSJbjhQ+xbsgWqz7ULnKsNX4EtQkLSyyIKjKiIE3XT7OxWLlS/TUSAYMEha5wg+dCGQpnObx3jmwMAAw==" length="2276198"/>
   </sparkle:deltas>
 </item>
 </channel>
