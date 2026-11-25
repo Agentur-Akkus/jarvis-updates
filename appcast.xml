@@ -6,6 +6,23 @@
 <language>de</language>
 <item>
   <title>Jarvis 1.18 (Testfassung)</title>
+  <pubDate>Wed, 25 Nov 2026 15:57:01 GMT</pubDate>
+  <sparkle:version>1.18.13</sparkle:version>
+  <sparkle:shortVersionString>1.18</sparkle:shortVersionString>
+  <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+  <sparkle:channel>test</sparkle:channel>
+  <description><![CDATA[<h3>Behoben</h3><ul><li><b>Update-Fenster zeigt nur, was wirklich neu ist,</b> und das auf Deutsch. Bisher standen dort alle Punkte der ganzen Version 1.18, auch längst bekannte.</li></ul>]]></description>
+  <enclosure url="https://raw.githubusercontent.com/Agentur-Akkus/jarvis-updates/main/versionen/Jarvis-1.18.13.zip" type="application/octet-stream" sparkle:edSignature="WvjjmwGOvhfokc9+C42bVbZDjLUjbWzfQZsPEt/+SQguk87OwXXbCWCmFRXuOvT6npa7xcJHMcpXWUSZGiFADw==" length="9845302"/>
+  <sparkle:deltas>
+    <enclosure url="https://raw.githubusercontent.com/Agentur-Akkus/jarvis-updates/main/versionen/Jarvis-1.18.13-von-1.18.12.delta" sparkle:deltaFrom="1.18.12" type="application/octet-stream" sparkle:edSignature="tzOLVQre9rOrDJts8Vxu9iXNIUR4hoPyzx9oeUFSKpGtkcGICOI5ezrgVUAcQjyEAB/mt8NEfgv6nuXBugOTCw==" length="11194"/>
+    <enclosure url="https://raw.githubusercontent.com/Agentur-Akkus/jarvis-updates/main/versionen/Jarvis-1.18.13-von-1.18.11.delta" sparkle:deltaFrom="1.18.11" type="application/octet-stream" sparkle:edSignature="yM768j2jmZtcoMGOLGNH9bMEV3UQcpkKLZo4VJEs9QKPodk7hHuQFnzt8aVis0dp5D9AgLn3Pk6aLdnxSlP8AA==" length="445242"/>
+    <enclosure url="https://raw.githubusercontent.com/Agentur-Akkus/jarvis-updates/main/versionen/Jarvis-1.18.13-von-1.18.10.delta" sparkle:deltaFrom="1.18.10" type="application/octet-stream" sparkle:edSignature="FqpPU2za4Gk/iZwLu+8USFmpD90qZRlyWe5Mu7aX+t6NEWHPTliMy5ZCBEgmLeBP2XSux208hl6/OvdSu/fdDg==" length="458050"/>
+    <enclosure url="https://raw.githubusercontent.com/Agentur-Akkus/jarvis-updates/main/versionen/Jarvis-1.18.13-von-1.18.9.delta" sparkle:deltaFrom="1.18.9" type="application/octet-stream" sparkle:edSignature="rYcL7MJ4EC07HE+eOQqLIrSL1CntzQKuA9lApRGjbvEL40pohxQnt13vCwAy8fSeVhFrKI932M4UAl5xfquECw==" length="458738"/>
+    <enclosure url="https://raw.githubusercontent.com/Agentur-Akkus/jarvis-updates/main/versionen/Jarvis-1.18.13-von-1.18.8.delta" sparkle:deltaFrom="1.18.8" type="application/octet-stream" sparkle:edSignature="X6isQIyAk0FFZ+4AfyU9umKFVXJA150mkZ2QJIMLyfU/rAJgrKfTUnZB8gyzR25uWdbcn+TV2gcP8ILyYLPICQ==" length="458830"/>
+  </sparkle:deltas>
+</item>
+<item>
+  <title>Jarvis 1.18 (Testfassung)</title>
   <pubDate>Wed, 25 Nov 2026 15:43:04 GMT</pubDate>
   <sparkle:version>1.18.12</sparkle:version>
   <sparkle:shortVersionString>1.18</sparkle:shortVersionString>
@@ -237,23 +254,6 @@
     <enclosure url="https://raw.githubusercontent.com/Agentur-Akkus/jarvis-updates/main/versionen/Jarvis-1.17.2-von-1.16.2.delta" sparkle:deltaFrom="1.16.2" type="application/octet-stream" sparkle:edSignature="gqbVjE7JX2gKw22LIoO4nF5kYaeyJXiFDSAt54k1mDxOHNMTidqISHeLk+VnlCkWDp85XVu/x5IiE9XIcksUBA==" length="599774"/>
     <enclosure url="https://raw.githubusercontent.com/Agentur-Akkus/jarvis-updates/main/versionen/Jarvis-1.17.2-von-1.16.1.delta" sparkle:deltaFrom="1.16.1" type="application/octet-stream" sparkle:edSignature="RW5ErT9EO0GcTdU5Vn/4czaS9AOkt2pB9WwhV9R90ksH6lQKxzxflZd+mjuSwj1+/sbHggQp9WUWGkgqxeqqAw==" length="640962"/>
     <enclosure url="https://raw.githubusercontent.com/Agentur-Akkus/jarvis-updates/main/versionen/Jarvis-1.17.2-von-1.15.2.delta" sparkle:deltaFrom="1.15.2" type="application/octet-stream" sparkle:edSignature="BlTibrKUIKPbX9MEsA4CUQwedX4KK1WEFqbL927NpRaefickSds2h0pj/j3waxIwi0nc209BbBY5UM8jdYkrCA==" length="755870"/>
-  </sparkle:deltas>
-</item>
-<item>
-  <title>Jarvis 1.17 (Testfassung)</title>
-  <pubDate>Tue, 24 Nov 2026 14:50:37 GMT</pubDate>
-  <sparkle:version>1.17.1</sparkle:version>
-  <sparkle:shortVersionString>1.17</sparkle:shortVersionString>
-  <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-  <sparkle:channel>test</sparkle:channel>
-  <description><![CDATA[<h3>Neu</h3><ul><li><b>Ein Tab „Jarvis“</b> statt „Diktat“ und „Meetings“, direkt unter dem Dashboard. Oben wechselst du zwischen <b>Protokolle</b>, <b>Diktat</b> und <b>Live</b>.</li><li><b>Protokolle als Zeitstrahl.</b> Jedes Meeting mit Tag und Titel an einer gemalten Linie, nach Monaten. Rechts ein Monatskalender: Tage mit Meetings sind als Farbklecks markiert, ein Klick springt hin. Oben eine Suche.</li><li><b>Titel direkt ändern.</b> Doppelklick auf den Titel oder der Stift, Enter speichert (Esc bricht ab). Jede Änderung ist eine Version. Ältere Protokolle bekommen mit Apple Intelligence einmal einen passenden Titel statt „Meeting … am …“.</li><li><b>Bericht im Tab.</b> Ein Klick öffnet die Seite gleich hier, mit Umschalter Bericht/Kapitel, Versionen und Nachbearbeiten. „← Protokolle“ führt zurück. Auch „Öffnen“ nach einem Meeting landet hier.</li></ul><h3>Das müsst ihr tun</h3><ul><li>Nichts.</li></ul><h3>Bleibt erhalten</h3><ul><li>Alles aus 1.16. Protokolle, Berichte und Versionen bleiben, wo sie sind.</li></ul>]]></description>
-  <enclosure url="https://raw.githubusercontent.com/Agentur-Akkus/jarvis-updates/main/versionen/Jarvis-1.17.1.zip" type="application/octet-stream" sparkle:edSignature="4/s90sODUTZISnBUrnmazzloihILjLJx+2hFuG6mwrUH7f4WSp85XBbA+GdCm6CRSYtJNbtHu1isRe+RFrCwBg==" length="9796376"/>
-  <sparkle:deltas>
-    <enclosure url="https://raw.githubusercontent.com/Agentur-Akkus/jarvis-updates/main/versionen/Jarvis-1.17.1-von-1.16.3.delta" sparkle:deltaFrom="1.16.3" type="application/octet-stream" sparkle:edSignature="Uu9vlu296RzXImqCr3xMWpG5EFqgRyJMX5u/hujGuDLPnNc9rNuRyqrXc9g/Hnvhea1vFT+cEMUkkA78m4GXBw==" length="555642"/>
-    <enclosure url="https://raw.githubusercontent.com/Agentur-Akkus/jarvis-updates/main/versionen/Jarvis-1.17.1-von-1.16.2.delta" sparkle:deltaFrom="1.16.2" type="application/octet-stream" sparkle:edSignature="FNdFMyJFmwu2OYFFUw7yd81VTs5J2MhBKpRoO6lcPpaZwHmWkOk7pk8+s2F5Q0X4xqrHa2QhrFZoMDvPvHy+Ag==" length="578134"/>
-    <enclosure url="https://raw.githubusercontent.com/Agentur-Akkus/jarvis-updates/main/versionen/Jarvis-1.17.1-von-1.16.1.delta" sparkle:deltaFrom="1.16.1" type="application/octet-stream" sparkle:edSignature="bF3QLW4/ntV+HZMiN0sjOcz2zTvijK9r8uPMON8VVa8QvskyC8TgXHJyV/hMinMiXg4saIaLK+OplT0pJwNPCw==" length="635254"/>
-    <enclosure url="https://raw.githubusercontent.com/Agentur-Akkus/jarvis-updates/main/versionen/Jarvis-1.17.1-von-1.15.2.delta" sparkle:deltaFrom="1.15.2" type="application/octet-stream" sparkle:edSignature="GOXptMXl2XHtxu3U732h/KitQwSyejoy7EZHV/h09jcuzmOAQ78U+JRJ0g8zckxIQ2xVEn0YqNyrww8uOCT6CA==" length="748566"/>
-    <enclosure url="https://raw.githubusercontent.com/Agentur-Akkus/jarvis-updates/main/versionen/Jarvis-1.17.1-von-1.15.1.delta" sparkle:deltaFrom="1.15.1" type="application/octet-stream" sparkle:edSignature="uubYDOsut2CdBWa3aJya5KYeiVSwBlvW3bUFTpoWhkq1uw9xMF1c1YwwywWDsOzoKdbfwIBbzk1dflK6cWeJDA==" length="767686"/>
   </sparkle:deltas>
 </item>
 </channel>
